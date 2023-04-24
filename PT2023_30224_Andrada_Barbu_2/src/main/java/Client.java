@@ -1,12 +1,12 @@
 public class Client{
     private int id;
+    private int timpServire;
     private int timpInceput;
-    private int timpFianl;
 
-    public Client(int id,int timpInceput,int timpFianl) {
+    public Client(int id,int timpInceput,int timpServire) {
         this.id=id;
         this.timpInceput=timpInceput;
-        this.timpFianl=timpFianl;
+        this.timpServire=timpServire;
     }
 
     public int getId() {
@@ -25,12 +25,12 @@ public class Client{
         this.timpInceput = timpInceput;
     }
 
-    public int getTimpFianl() {
-        return timpFianl;
+    public int getTimpServire() {
+        return timpServire;
     }
 
-    public void setTimpFianl(int timpFianl) {
-        this.timpFianl = timpFianl;
+    public void setTimpServire(int timpServire) {
+        this.timpServire = timpServire;
     }
 
 }
